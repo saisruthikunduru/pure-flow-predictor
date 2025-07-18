@@ -8,33 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 210 20% 98%;
+    --foreground: 215 25% 27%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 27%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 27%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 200 98% 39%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 185 20% 92%;
+    --secondary-foreground: 215 25% 27%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 185 15% 94%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 175 65% 45%;
+    --accent-foreground: 210 40% 98%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 185 20% 88%;
+    --input: 185 20% 90%;
+    --ring: 200 98% 39%;
+
+    /* Water quality themed colors */
+    --water-excellent: 140 75% 45%;
+    --water-good: 45 93% 47%;
+    --water-fair: 35 91% 55%;
+    --water-poor: 0 84% 60%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(200 98% 39%), hsl(175 65% 45%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(185 15% 98%));
+    --gradient-result: linear-gradient(90deg, hsl(185 20% 94%), hsl(0 0% 100%));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 6px -1px hsl(200 98% 39% / 0.1), 0 2px 4px -1px hsl(200 98% 39% / 0.06);
+    --shadow-medium: 0 10px 15px -3px hsl(200 98% 39% / 0.1), 0 4px 6px -2px hsl(200 98% 39% / 0.05);
+    --shadow-large: 0 20px 25px -5px hsl(200 98% 39% / 0.1), 0 10px 10px -5px hsl(200 98% 39% / 0.04);
 
     --radius: 0.5rem;
 
